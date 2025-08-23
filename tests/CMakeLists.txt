@@ -22,7 +22,7 @@ add_executable(test_bitset  src/test_bitset.c)
 list(APPEND TEST_EXECUTABLES test_bitset)
 
 set_target_properties(test_bitset PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -63,7 +63,7 @@ add_executable(test_bitset_expandable  src/test_bitset_expandable.c)
 list(APPEND TEST_EXECUTABLES test_bitset_expandable)
 
 set_target_properties(test_bitset_expandable PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
